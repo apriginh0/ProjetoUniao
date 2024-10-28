@@ -70,13 +70,7 @@ p {
 
 /* Sobre */
 #sobre {
-    background-color: #0d6efd;
-    color: #ffffff;
-    padding: 100px 0 70px 0;
-}
-
-#sobre img {
-    width: 100%;
+    margin: 0;
 }
 
 .btn-sobre {
@@ -91,7 +85,7 @@ p {
 
 /* Relatório */
 #intro {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 #intro h1 {
@@ -235,16 +229,6 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-}
-
-/* Contato */
-#contato .titulo {
-    margin-top: 5%;
-}
-
-#contato {
-    padding: 5% 15% 8%;
-    color: #323338;
 }
 
 /* FAQ */

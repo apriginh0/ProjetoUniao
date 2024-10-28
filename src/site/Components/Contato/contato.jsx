@@ -17,33 +17,33 @@ function Contato(){
         <section id="contato-web" className='box-pattern'>
             <h2 className="distance">Diretamente na página web</h2>
             <p>Preencha o formulário de contato abaixo, e nossa equipe receberá sua mensagem. Certifique-se de fornecer dados corretos e informações detalhadas para que possamos responder e atender às suas necessidades com precisão.</p>
-            <form id="#" class="#" data-formid="1957" method="post" enctype="multipart/form-data" action="/contato/" data-token="#################" data-token-time="############" novalidate="novalidate">
-                <div class="field-container">
-                    <div id="field_1-container" class="field field-text" data-field-id="1">
-                        <label class="field-label" for="field_1">Nome Completo <span class="required-label">*</span></label>
-                        <input type="text" id="field_1" class="field-large field-required" name="wpforms[fields][1]" placeholder="Ex: João Guimarães Rosa" required=""/>
+            <form id="#" className="#" data-formid="1957" method="post" encType="multipart/form-data" action="/contato/" data-token="#################" data-token-time="############" noValidate="novalidate">
+                <div className="field-container">
+                    <div id="field_1-container" className="field field-text" data-field-id="1">
+                        <label className="field-label" htmlFor="field_1">Nome Completo <span className="required-label">*</span></label>
+                        <input type="text" id="field_1" className="field-large field-required" name="wpforms[fields][1]" placeholder="Ex: João Guimarães Rosa" required=""/>
                     </div>
-                    <div id="field_2-container" class="field field-email one-half first" data-field-id="2">
-                        <label class="field-label" for="field_2">E-mail <span class="required-label">*</span></label>
-                        <div class="field-row field-large">
-                            <div class="field-row-block one-half first">
-                                <input type="email" id="field_2" class="field-required field-email-primary" name="wpforms[fields][2][primary]" spellcheck="false" required=""/>
-                                <label for="field_2" class="field-sublabel after">E-mail</label>
+                    <div id="field_2-container" className="field field-email one-half first" data-field-id="2">
+                        <label className="field-label" htmlFor="field_2">E-mail <span className="required-label">*</span></label>
+                        <div className="field-row field-large">
+                            <div className="field-row-block one-half first">
+                                <input type="email" id="field_2" className="field-required field-email-primary" name="wpforms[fields][2][primary]" spellCheck="false" required=""/>
+                                <label htmlFor="field_2" className="field-sublabel after">E-mail</label>
                             </div>
-                            <div class="field-row-block one-half">
-                                <input type="email" id="field_2-secondary" class="field-email-secondary field-required" data-rule-confirm="#field_2" name="wpforms[fields][2][secondary]" spellcheck="false" required=""/>
-                                <label for="field_2-secondary" class="field-sublabel after">Confirmar e-mail</label>
+                            <div className="field-row-block one-half">
+                                <input type="email" id="field_2-secondary" className="field-email-secondary field-required" data-rule-confirm="#field_2" name="wpforms[fields][2][secondary]" spellCheck="false" required=""/>
+                                <label htmlFor="field_2-secondary" className="field-sublabel after">Confirmar e-mail</label>
                             </div>
                         </div>
                     </div>
-                    <div id="field_3-container" class="field field-text one-half" data-field-id="3">
-                        <label class="wpforms-field-label" for="field_3">Telefone</label>
-                        <input type="text" id="field_3" class="field-large masked-input" data-rule-inputmask-incomplete="1" data-inputmask-mask="(99) 9999-9999[9]" name="wpforms[fields][3]" inputmode="text"/>
+                    <div id="field_3-container" className="field field-text one-half" data-field-id="3">
+                        <label className="wpforms-field-label" htmlFor="field_3">Telefone</label>
+                        <input type="text" id="field_3" className="field-large masked-input" data-rule-inputmask-incomplete="1" data-inputmask-mask="(99) 9999-9999[9]" name="wpforms[fields][3]" inputMode="text"/>
                     </div>
-                    <div id="field_4-container" class="field field-select field-select-style-classic" data-field-id="4">
-                        <label class="field-label" for="field_4">De onde falas?</label>
-                        <select id="field_4" class="field-large" name="wpforms[fields][4]">
-                            <option value="" class="placeholder" disabled="" selected="selected">Escolha um Estado</option>
+                    <div id="field_4-container" className="field field-select field-select-style-classic" data-field-id="4">
+                        <label className="field-label" htmlFor="field_4">De onde falas?</label>
+                        <select id="field_4" className="field-large" name="wpforms[fields][4]">
+                            <option value="" className="placeholder" disabled="" selected="selected">Escolha um Estado</option>
                             <option value="Acre">Acre</option>
                             <option value="Alagoas">Alagoas</option>
                             <option value="Amapá">Amapá</option>
@@ -73,14 +73,14 @@ function Contato(){
                             <option value="Distrito Federal">Distrito Federal</option>
                         </select>
                     </div>
-                    <div id="field_6-container" class="field field-textarea" data-field-id="6">
-                        <label class="field-label" for="1957-field_6">Sua mensagem <span class="required-label">*</span></label>
-                        <textarea id="1957-field_6" class="#" name="[fields][6]" required=""></textarea>
-                        <div class="field-description">Seja o mais descritivo possível</div>
+                    <div id="field_6-container" className="field field-textarea" data-field-id="6">
+                        <label className="field-label" htmlFor="1957-field_6">Sua mensagem <span className="required-label">*</span></label>
+                        <textarea id="1957-field_6" className="#" name="[fields][6]" required=""></textarea>
+                        <div className="field-description">Seja o mais descritivo possível</div>
                     </div>
                 </div>
-                <div class="#">
-                    <button type="submit" name="#" id="submit-1957" class="submit meu-formulario-botao" data-alt-text="Enviando…" data-submit-text="Enviar" aria-live="assertive" value="submit">Enviar</button>
+                <div className="#">
+                    <button type="submit" name="#" id="submit-1957" className="submit meu-formulario-botao" data-alt-text="Enviando…" data-submit-text="Enviar" aria-live="assertive" value="submit">Enviar</button>
                 </div>
             </form>
         </section>
